@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html>
 	<head>
@@ -13,12 +12,12 @@
 
 
 		<style >
-			h2,h4,,h5,h3{
-				color: black;
+			h2,h4,h5,h3{
+				color: white;
 				
 				}
 			body{
-				background-image: url("images/welcome.jpg");
+				background-image: url("https://i.pinimg.com/564x/ad/c1/a2/adc1a293cc43179f166ce3ea3ea028e9.jpg");
 				background-repeat: no-repeat;
 				background-size:cover;
 			}
@@ -30,20 +29,22 @@
 
 		<section class="main-container" >
 			<div class="main-wrapper">
-				<center><h4 style="font-size: 400%;font-family: comic sans ms; padding-top: 3%;"><u><b>MOVIE TICKET BOOKING DATABASE</b></u></h4><br></center>
-				<h5 style="font-size: 300%; font-family:  comic sans ms; font-style: italic; padding-top:0.25%; padding-bottom: 0.35%;">
-				<center><u><b>Project by:</b></u> <br></center></h5>
-				<h3 style="font-size: 250%; font-family:  comic sans ms; font-style: italic; padding-top:0.25%; padding-bottom: 0.7%; "><b><center>
-					Name: Aditya Warrier <br> Usn:1AT15IS002<br>
-					Name: Dimple K H  <br>  Usn:1AT15IS025<br>
-					Semester:5th<br>
-					Branch: ISE<br>
-					College: Atria Institute of Technology</center>
+				<center><h4 style="font-size: 400%;font-family: Sans-serif Fonts; padding-top: 3%;"><u><b>BÀI TẬP NHÓM CUỐI KÌ</b></u></h4><br></center>
+				<h5 style="font-size: 300%; font-family:  Serif Fonts; padding-top:0.25%; padding-bottom: 0.35%;">
+				<center><u><b>NHÓM:</b></u> <br></center></h5>
+				<h3 style="font-size: 250%; font-family:  Serif Fonts; padding-top:0.25%; padding-bottom: 0.7%; "><b><center>
+					Hoàng Mạnh Hùng <br>MSV:<br>
+					Nguyễn Đình Trung Kiên <br>MSV:<br>
+					Đỗ Phương Nam <br>MSV:<br>
+					Trương Ngôn Nghĩa <br>MSV:<br>
+					Lê Hồng Thạch  	MSV:<br>
+					Đề tài: Web bán vé xem phim<br>
+					</center>
 				</b></h3>
 			</div>
 		</section>
 		<body style="background-color:#707B7C">
-			<ul><br><center><a href="index1.php" class="btn btn-warning btn-lg" style="font-size:15px;  font-family: comic sans ms; color: black" role="button"><b>Click here</b></a></center></u>
+			<ul><br><center><a href="index1.php" class="btn btn-warning btn-lg" style="font-size:15px;  font-family: Serif Fonts; color: black" role="button"><b>Click here</b></a></center></u>
 		</body>
 	</head>
 </html>
