@@ -21,7 +21,7 @@ include_once 'header.php';
 </head>
 
 <style>
-	h2,
+	h2
 	a {
 		color: white;
 	}

@@ -43,7 +43,7 @@
 			</div>
 		</section>
 		<body style="background-color:#707707">
-			<ul><br><center>< <a href="index1.php" class="btn btn-success btn-lg" style="font-size:15px; font-family: Serif Fonts; color: white" role="button"><b>Tiếp tục</b></a></center></u>
+			<ul><br><center><a href="index1.php" class="btn btn-success btn-lg" style="font-size:15px; font-family: Serif Fonts; color: white" role="button"><b>Tiếp tục</b></a></center></u>
 		</body>
 	</head>
 </html>
