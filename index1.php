@@ -5,7 +5,7 @@
 <style >
 	p    {font-family: monospace; font-size: 300%; color:  yellow;}
 	body{
-				background-image: url("images/cinema.jpg");
+				background-image: url("images/cinema2.png");
 				-moz-background-size: cover;
 				-webkit-background-size: cover;
 				background-size:100% 115vh;

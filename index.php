@@ -1,15 +1,14 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		<title>Welcome</title>
-				<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-
-				<!-- Optional theme -->
-				<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
-
-				<!-- Latest compiled and minified JavaScript -->
-				<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-
+		<meta charset="UTF-8">
+    	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>My movie ticket</title>
+		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css">
+		<!-- Optional theme -->
+		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css">
+		<!--Latest compiled and minified JavaScript -->
+		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-swA9Q11t4o/VRa9RtMazbNJ53Z/EPrzQbhQn8HwN/CmXn5i7WaxEf8xz/5q5MWZn" crossorigin="anonymous"></script>
 
 		<style >
 			h2,h4,h5,h3{
@@ -17,23 +16,23 @@
 				
 				}
 			body{
-				background-image: url("https://i.pinimg.com/564x/ad/c1/a2/adc1a293cc43179f166ce3ea3ea028e9.jpg");
+				background: url("https://i.pinimg.com/564x/ad/c1/a2/adc1a293cc43179f166ce3ea3ea028e9.jpg");
 				background-repeat: no-repeat;
 				background-size:cover;
 			}
 			p{
-				font-family: times;
+				font-family: Arial, Helvetica, sans-serif;
 			}
 			
 		</style>
 
 		<section class="main-container" >
 			<div class="main-wrapper">
-				<center><h4 style="font-size: 400%;font-family: Sans-serif Fonts; padding-top: 3%;"><u><b>BÀI TẬP NHÓM CUỐI KÌ</b></u></h4><br></center>
+				<center><h4 style="font-size: 400%;font-family: Sans-serif Fonts; padding-top: 3%;"><b>BÀI TẬP NHÓM CUỐI KÌ</b></h4><br></center>
 				<h5 style="font-size: 300%; font-family:  Serif Fonts; padding-top:0.25%; padding-bottom: 0.35%;">
-				<center><u><b>NHÓM:</b></u> <br></center></h5>
-				<h3 style="font-size: 250%; font-family:  Serif Fonts; padding-top:0.25%; padding-bottom: 0.7%; "><b><center>
-					Hoàng Mạnh Hùng <br>MSV:<br>
+				<center><b>NHÓM:</b> <br></center></h5>
+				<h3 style="font-size: 200%; font-family:  Serif Fonts; padding-top:0.25%; padding-bottom: 0.7%; "><b><center>
+					Hoàng Mạnh Hùng <br>MSV: 20002128<br>
 					Nguyễn Đình Trung Kiên <br>MSV:<br>
 					Đỗ Phương Nam <br>MSV:<br>
 					Trương Ngôn Nghĩa <br>MSV:<br>
@@ -43,8 +42,8 @@
 				</b></h3>
 			</div>
 		</section>
-		<body style="background-color:#707B7C">
-			<ul><br><center><a href="index1.php" class="btn btn-warning btn-lg" style="font-size:15px;  font-family: Serif Fonts; color: black" role="button"><b>Click here</b></a></center></u>
+		<body style="background-color:#707707">
+			<ul><br><center>< <a href="index1.php" class="btn btn-success btn-lg" style="font-size:15px; font-family: Serif Fonts; color: white" role="button"><b>Tiếp tục</b></a></center></u>
 		</body>
 	</head>
 </html>
