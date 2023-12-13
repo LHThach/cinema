@@ -15,7 +15,7 @@
 	</head>
 	<style >
 	input:valid {
-	  border: 1px solid black;
+	border: 1px solid black;
 	}
 
 	body {
@@ -32,7 +32,7 @@
 	body>p {
 		font-family: monospace;
 		font-size: 200%;
-		font font-weight: normal;
+		font-weight: normal;
 		justify-content: space-between;
 	}
 	</style>
@@ -55,7 +55,7 @@
 				<center>
 						<button style="display:inline-block" type="reset" value="Reset">Reset  <span class="glyphicon glyphicon-edit"></span></button>&nbsp;&nbsp;&nbsp;&nbsp;
 						<button style="display:inline-block"; type="submit" name="submit1">Done <span class="glyphicon glyphicon-ok"></span></button> 
-			    </center>
+				</center>
 
 			</form>
 		</div>
@@ -68,27 +68,27 @@
 							unset($_SESSION['emptys']);	
 						}
 						elseif (isset($_SESSION['invalid']))
-					    {
+						{
 							echo '<p align=middle><br><br>'.$_SESSION['invalid'].'</p>';
 							unset($_SESSION['invalid']);	
 						}
 						elseif (isset($_SESSION['usertaken']))
-					    {
+						{
 							echo '<p align=middle><br><br>'.$_SESSION['usertaken'].'</p>';
 							unset($_SESSION['usertaken']);	
 						}
 						elseif (isset($_SESSION['age1']))
-					    {
+						{
 							echo '<p align=middle><br><br>'.$_SESSION['age1'].'</p>';
 							unset($_SESSION['age1']);	
 						}
 						elseif (isset($_SESSION['phone1']))
-					    {
+						{
 							echo '<p align=middle><br><br>'.$_SESSION['phone1'].'</p>';
 							unset($_SESSION['phone1']);	
 						}
 					
-	    ?>
+		?>
 	</body>
 </html>
 

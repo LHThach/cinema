@@ -106,15 +106,15 @@
 			$result1 = mysqli_query($conn, $sql1);
 			echo '<br><br><br><table style="margin-left: auto; margin-right: auto;">
 					<tr align="middle">
-				  		<td><u><b>Actor</b></u></td>
-				  		<td><u><b>Role</b></u></td>
+						<td><u><b>Actor</b></u></td>
+						<td><u><b>Role</b></u></td>
 					</tr>';
 			while($row=mysqli_fetch_array($result1))
 			{
 				echo  '<tr>
 							<td>'.$row['actor_name'].'</td>
 							<td align="middle">'.$row['role'].'</td>
-					  </tr>';
+					</tr>';
 			}
 
 			echo '</table><br><br><br>';
@@ -123,7 +123,7 @@
 
 		?>
 		
-		<center><a href="nowshowing.php"  class="btn btn-default btn-lg"  style="font-size:15px padding-top:0.25%;  font-family: comic sans ms; color: black" role="button"><b>Book now</b></a></center><br>
+		<center><a href="nowshowing.php"  class="btn btn-default btn-lg"  style="font-size:15px; padding-top:0.25%;  font-family: comic sans ms; color: black" role="button"><b>Book now</b></a></center><br>
 		
 	</body>
 </html>
