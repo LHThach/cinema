@@ -5,9 +5,9 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Movie Database</title>
+	<title>Vé xem phim</title>
 	<link rel="stylesheet" type="text/css" href="style.css">
-	 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 
         <!-- Optional theme -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
@@ -27,9 +27,9 @@
         echo ' <a class="navbar-brand" href="second.php">Home</a>';
       }
       ?>
-     
+    
     </div>
-         <?php
+        <?php
       if (isset($_SESSION['u_id'])) 
       {
         echo '  <ul class="nav navbar-nav navbar-right">
@@ -40,8 +40,8 @@
       else 
       {
         echo '<ul class="nav navbar-nav navbar-right">
-        	  <li><a style="font-size:120%;" href="signup.php"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
-        	  </ul>
+            <li><a style="font-size:120%;" href="signup.php"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
+            </ul>
 
               <form action="includes/login.inc.php" class="navbar-form navbar-right" method="POST">
                 <div class="input-group">
