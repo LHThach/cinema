@@ -17,8 +17,15 @@
 <body>
 
 <header>
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-black">
         <div class="container-fluid">
+        <a class="navbar-brand" href="index1.php">
+                <div class="d-flex align-items-center">
+                    <img src="images/logo.jpg" alt="Logo" width="40" height="40" style="margin-right: 8px;">
+                    <span style="font-weight: bold; color: #4DA6FF;">WEEABO CINEMA</span>
+                </div>
+            </a>
+
             <?php
             if (isset($_SESSION['u_id'])) {
                 echo '<a class="navbar-brand" href="second.php">Home</a>';
