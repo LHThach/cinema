@@ -78,12 +78,12 @@
     <h2 style="text-align: center; font-family: monospace; font-size: 300%; padding-left: 0.5cm;"><br><b>Những phim sẽ chiếu trong tuần này:</b></h2>
     <br><br><br>
     <p>
-        <center><ol>
-            <li><a style="font-family: monospace;" href="gangs.php"><b>One Piece</b></a></li>
-            <li><a style="font-family: monospace;" href="neram.php"><b>One Piece 2</b></a></li>
-			<li><a style="font-family: monospace;" href="neram.php"><b>One Piece 3</b></a></li>
-			<li><a style="font-family: monospace;" href="neram.php"><b>One Piece 4</b></a></li>
-			<li><a style="font-family: monospace;" href="neram.php"><b>One Piece 5</b></a></li>
+        <center><ol style="list-style:none; text-decoration:none;">
+            <li><a style="font-family: monospace;" href="gangs.php">One Piece 1</a></li>
+            <li><a style="font-family: monospace;" href="neram.php">One Piece 2</a></li>
+			<li><a style="font-family: monospace;" href="neram.php">One Piece 3</a></li>
+			<li><a style="font-family: monospace;" href="neram.php">One Piece 4</a></li>
+			<li><a style="font-family: monospace;" href="neram.php">One Piece 5</a></li>
         </ol>
 		</center>
     </p>
