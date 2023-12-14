@@ -13,14 +13,6 @@
 	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css">
 	<!--Latest compiled and minified JavaScript -->
 	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-swA9Q11t4o/VRa9RtMazbNJ53Z/EPrzQbhQn8HwN/CmXn5i7WaxEf8xz/5q5MWZn" crossorigin="anonymous"></script>
-    <style>
-        header{
-            position: fixed;
-            width: 100%;
-            top: 0;
-            z-index: 1000;
-        }
-    </style>
 </head>
 <body>
 
@@ -68,4 +60,5 @@
         </div>
     </nav>
 </header>
+
 </body>
