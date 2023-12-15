@@ -33,10 +33,10 @@
 				<center><b>NHÓM:</b> <br></center></h5>
 				<h3 style="font-size: 200%; font-family:  Serif Fonts; padding-top:0.25%; padding-bottom: 0.7%; "><b><center>
 					Hoàng Mạnh Hùng <br>MSV: 20002128<br>
-					Nguyễn Đình Trung Kiên <br>MSV:<br>
-					Đỗ Phương Nam <br>MSV:<br>
-					Trương Ngôn Nghĩa <br>MSV:<br>
-					Lê Hồng Thạch  	MSV:<br>
+					Nguyễn Đình Trung Kiên <br>MSV: 20002141<br>
+					Đỗ Phương Nam <br>MSV: 20002145<br>
+					Trương Ngôn Nghĩa <br>MSV: 20002147<br>
+					Lê Hồng Thạch  	MSV: 20002162<br>
 					Đề tài: Web bán vé xem phim<br>
 					</center>
 				</b></h3>

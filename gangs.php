@@ -37,8 +37,8 @@
 			background-color: #222;
 			font-family: arial;
 			font-size: 16px;
-		    color: #fff;
- 			cursor: pointer;
+			color: #fff;
+			cursor: pointer;
 		}		
 	</style>
 

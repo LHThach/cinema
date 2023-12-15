@@ -11,7 +11,7 @@
 
     <footer class="text-center text-muted" style="background-color:#9fd1fa">
         <img src="images/logo.jpg" alt="Logo" width="40" height="40" class="mb-3">
-        <p>&copy; 2023 Trang web của tôi. Mọi quyền được bảo lưu.</p>
+        <p>&copy; 2023 Trang web của nhóm. Mọi quyền được bảo lưu.</p>
         <a href="#">Chính sách bảo mật</a> | <a href="#">Điều khoản sử dụng</a>
     </footer>
 </body>
