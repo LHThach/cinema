@@ -74,7 +74,7 @@ session_start();
                     } else {
                         echo '<ul class="navbar-nav ms-auto">
                             <li class="nav-item">
-                                <form action="includes/login.inc.php" class="d-flex" method="POST">
+                            <form action="includes/login.inc.php" class="d-flex" method="POST">
                                 <a class="btn btn-primary" href="login.php" style="font-size: 100%; margin-left: 0.25rem; width:auto; height:2.5rem"><span class="glyphicon glyphicon-user" aria-hidden="true"></span> Đăng nhập</a>
                                 <a class="btn btn-primary" href="signup.php" style="font-size: 100%; margin-left: 0.25rem; width:auto; height:2.5rem"><span class="glyphicon glyphicon-user" aria-hidden="true"></span> Đăng ký</a>
                                 </form>
