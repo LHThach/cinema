@@ -47,7 +47,7 @@ include_once 'header.php';
         box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
         height: 100%;
         margin: auto;
-        
+
     }
 
     .form-title {
@@ -127,34 +127,43 @@ include_once 'header.php';
 
 <body style=" color:white;">
 
-<form class="form" action="includes/login.inc.php" method="POST">
-    <p class="form-title">Sign in to your account</p>
-    <div class="form-group input-container">
-        <input class="form-control" placeholder="Tên đăng nhập/ email" type="email" name="email">
-        <span class="input-group-addon">
-            <svg stroke="currentColor" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <path d="M16 12a4 4 0 10-8 0 4 4 0 008 0zm0 0v1.5a2.5 2.5 0 005 0V12a9 9 0 10-9 9m4.5-1.206a8.959 8.959 0 01-4.5 1.207" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"></path>
-            </svg>
-        </span>
-    </div>
-    <div class="form-group input-container">
-        <input class="form-control" placeholder="Mật khẩu" type="password" name="password">
-        <span class="input-group-addon">
-            <svg stroke="currentColor" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <path d="M15 12a3 3 0 11-6 0 3 3 0 016 0z" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"></path>
-                <path d="M2.458 12C3.732 7.943 7.523 5 12 5c4.478 0 8.268 2.943 9.542 7-1.274 4.057-5.064 7-9.542 7-4.477 0-8.268-2.943-9.542-7z" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"></path>
-            </svg>
-        </span>
-    </div>
-    <button class="btn btn-primary submit" type="submit" name="submit">
-        Đăng nhập
-    </button>
+    <form class="form" action="includes/login.inc.php" method="POST">
+        <p class="form-title">Sign in to your account</p>
+        <div class="form-group input-container">
+            <input class="form-control" placeholder="Tên đăng nhập/ email" type="email" name="email">
+            <span class="input-group-addon">
+                <!-- <svg stroke="currentColor" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M16 12a4 4 0 10-8 0 4 4 0 008 0zm0 0v1.5a2.5 2.5 0 005 0V12a9 9 0 10-9 9m4.5-1.206a8.959 8.959 0 01-4.5 1.207" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"></path>
+                </svg> -->
+            </span>
+        </div>
+        <div class="form-group input-container">
+            <input class="form-control" placeholder="Mật khẩu" type="password" name="password" id="password-field">
+            <span class="input-group-addon password-toggle" onclick="togglePasswordVisibility('password-field')">
+                <!-- <svg stroke="currentColor" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M15 12a3 3 0 11-6 0 3 3 0 016 0z" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"></path>
+                    <path d="M2.458 12C3.732 7.943 7.523 5 12 5c4.478 0 8.268 2.943 9.542 7-1.274 4.057-5.064 7-9.542 7-4.477 0-8.268-2.943-9.542-7z" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"></path>
+                </svg> -->
+            </span>
+        </div>
 
-    <p class="signup-link">
-        Bạn không có tài khoản?
-        <a href="signup.php">Đăng ký</a>
-    </p>
-</form>
+        <button class="btn btn-primary submit" type="submit" name="submit">
+            Đăng nhập
+        </button>
 
+        <p class="signup-link">
+            Bạn không có tài khoản?
+            <a href="signup.php">Đăng ký</a>
+        </p>
+    </form>
+    <script>
+        function togglePasswordVisibility(fieldId) {
+            var passwordField = document.getElementById(fieldId);
+            var fieldType = passwordField.getAttribute('type');
+
+            // Đảo ngược giữa 'password' và 'text'
+            passwordField.setAttribute('type', fieldType === 'password' ? 'text' : 'password');
+        }
+    </script>
 
 </body>
