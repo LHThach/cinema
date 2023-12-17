@@ -20,7 +20,9 @@ session_start();
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
-
+<!-- JavaScript và jQuery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/js/bootstrap.bundle.min.js"></script>
 
     <style>
         .prodct-film {
@@ -88,9 +90,7 @@ session_start();
     </header>
 
 
-    <!-- JavaScript và jQuery -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/js/bootstrap.bundle.min.js"></script>
+    
 
     <section class="main-container">
         <div class="main-wrapper">
@@ -118,7 +118,7 @@ session_start();
     <div class="background" style="background: url('images/cinema2.jpg') top center / cover no-repeat; height: 115vh;"></div>
     <div style="background-color: #9fd1fa; color: white;">
         <?php
-        echo '<h1 align="middle"><br><b>Phim đang hot! ' . $_SESSION['u_first'] . '!</b></h1><br><br>';
+        echo '<h1 align="middle"><br><b>Phim đang hot! ' . $_SESSION['u_first'] . '</b></h1><br><br>';
         ?>
 
         <p style="background-color: transparent;">
